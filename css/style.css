@@ -57,7 +57,7 @@
 .icon-twitter:before { content: '\74'; } /* 't' */
 .icon-vk:before { content: '\76'; } /* 'v' */
 .icon-up-dir:before { content: '\25b2'; } /* '^' */
-.icon-down-dir:before { content: '\25bc'; } /* 'Ў' */
+.icon-down-dir:before { content: '\25bc'; } /* 'ВЎ' */
 .icon-circle:before { content: '\25cb'; } /* '0' */
 .icon-circle-dot:before { content: '\25cf'; } /* '?' */
 .icon-check-off:before { content: '\2610'; } /* '?' */
@@ -76,7 +76,7 @@ body{
 	color:#fff;
 	background:url(../images/mobile/background.jpg) no-repeat center top   ;
 	}
-	/* затемнение бг */
+	/* Р·Р°С‚РµРјРЅРµРЅРёРµ Р±Рі */
 .wrapper{
 	background:rgba(7,7,7, .9);
 	
@@ -123,7 +123,7 @@ body{
 .main-navigation a:hover{
 	background:#242424;
 }
-/*подчеркивание активной ссылки*/
+/*РїРѕРґС‡РµСЂРєРёРІР°РЅРёРµ Р°РєС‚РёРІРЅРѕР№ СЃСЃС‹Р»РєРё*/
 .main-navigation .active a::after{
 	content:"";
 	position:absolute;
@@ -133,7 +133,7 @@ body{
 	right:20px;
 	background:white;
 }
-/*убираем бг у активной ссылки  */
+/*СѓР±РёСЂР°РµРј Р±Рі Сѓ Р°РєС‚РёРІРЅРѕР№ СЃСЃС‹Р»РєРё  */
 .main-navigation .active a:hover{
 	background:none;
 	}
@@ -183,7 +183,7 @@ body{
 	margin-bottom:30px;
 	position:relative;
 }
-/*белые ромбики*/
+/*Р±РµР»С‹Рµ СЂРѕРјР±РёРєРё*/
 .features-title::after{
 	content:"";
 	display:block;
@@ -287,11 +287,11 @@ background:#f9f6f3;
 border:2px solid black;
 
 }
-/*ширина кнопки на весь блок*/
+/*С€РёСЂРёРЅР° РєРЅРѕРїРєРё РЅР° РІРµСЃСЊ Р±Р»РѕРє*/
 .appointment-form .btn{
 	width:100%;
 }
-/* обнуление отступа у правых инпутов*/
+/* РѕР±РЅСѓР»РµРЅРёРµ РѕС‚СЃС‚СѓРїР° Сѓ РїСЂР°РІС‹С… РёРЅРїСѓС‚РѕРІ*/
 .appointment-form input:nth-child(even){
 	margin-right:0;
 }
@@ -363,7 +363,7 @@ border:2px solid black;
 	}
 	
 	
-	/* скрытая форма */
+	/* СЃРєСЂС‹С‚Р°СЏ С„РѕСЂРјР° */
 	.modal-content{
 		display:none;
 		position:absolute;
@@ -397,7 +397,7 @@ border:2px solid black;
 		background-position:-40px 0px;
 		cursor:pointer;
 	}
-	/* анимация появления формы..*/
+	/* Р°РЅРёРјР°С†РёСЏ РїРѕСЏРІР»РµРЅРёСЏ С„РѕСЂРјС‹..*/
 	@keyframes bounce {
   0% {
     transform: translateY(-2000px);
@@ -414,7 +414,7 @@ border:2px solid black;
 }
 
 
-	/* анимация ошибки ввода логина..*/
+		/* Р°РЅРёРјР°С†РёСЏ РѕС€РёР±РєРё РІРІРѕРґР° Р»РѕРіРёРЅР°..*/
 @keyframes shake {
   0%, 100% {
     transform: translateX(0);
@@ -438,7 +438,7 @@ border:2px solid black;
     transform: translateX(4px);
   }
 }
-/* если modal-content-show  будет  ниже, сломается анимация errora  */
+/* РµСЃР»Рё modal-content-show  Р±СѓРґРµС‚  РЅРёР¶Рµ, СЃР»РѕРјР°РµС‚СЃСЏ Р°РЅРёРјР°С†РёСЏ errora  */
 .modal-content-show{
 		display:block;
 		animation: bounce 0.6s;
@@ -503,7 +503,7 @@ border:2px solid black;
 	background:url("../images/spritesheet.png");
 	background-position:-3px -3px;
 }
-/* иконки в инпутах */
+/* РёРєРѕРЅРєРё РІ РёРЅРїСѓС‚Р°С… */
 .icon-login, .icon-password{
 	background:url("../images/sprites-vertical.png") no-repeat;	
 }
@@ -524,7 +524,7 @@ border:2px solid black;
 	}
 	
 
-/* прайсовая страница */
+/* РїСЂР°Р№СЃРѕРІР°СЏ СЃС‚СЂР°РЅРёС†Р° */
 .inner-page{
 	background:#fff;
 	color:#000;
@@ -650,8 +650,7 @@ border:2px solid black;
 	padding-right:80px;
 }
 
-
-/* магазин */
+/* РјР°РіР°Р·РёРЅ */
 .shop-wrapper{
 	margin-top:50px;
 	
@@ -665,7 +664,7 @@ border:2px solid black;
 	width:700px;
 	
 }
-/* -20px чтобы 3ий блок не уехал */
+/* -20px С‡С‚РѕР±С‹ 3РёР№ Р±Р»РѕРє РЅРµ СѓРµС…Р°Р» */
 .catalog-items .row{
 	margin-left:-20px;
 }
@@ -692,7 +691,7 @@ border:2px solid black;
 	margin-bottom:15px;
 	cursor:pointer;
 	}
-/* квадрат с черными бордерами*/
+/* РєРІР°РґСЂР°С‚ СЃ С‡РµСЂРЅС‹РјРё Р±РѕСЂРґРµСЂР°РјРё*/
 .shop-form input[type="checkbox"] + label::before{
 	content:"";
 	position:absolute;
@@ -702,13 +701,13 @@ border:2px solid black;
 	top:2px;
 	left:0;
 }
-/* крестик*/
+/* РєСЂРµСЃС‚РёРє*/
 .shop-form input[type="checkbox"]:checked + label::before{
 	background:url("../images/spritesheet.png");
 	background-position:-3px -3px;
 	
 }
-/* круг*/
+/* РєСЂСѓРі*/
 .shop-form input[type="radio"] + label::before{
 	content:"";
 	position:absolute;
@@ -724,11 +723,11 @@ border:2px solid black;
 	background-position:-21px 1px;
 }
 
-/* fix оступа сверху второго заголовка*/
+/* fix РѕСЃС‚СѓРїР° СЃРІРµСЂС…Сѓ РІС‚РѕСЂРѕРіРѕ Р·Р°РіРѕР»РѕРІРєР°*/
 .shop-form .title-radio{
 	margin-top:35px;
 }
-/* каталог товаров*/
+/* РєР°С‚Р°Р»РѕРі С‚РѕРІР°СЂРѕРІ*/
 .catalog-items-unit{
 	display:inline-block;
 	width:220px;
@@ -760,7 +759,7 @@ border:2px solid black;
 	padding:15px 21px;
 	
 }
-/* стилизация серого блока с ценой */
+/* СЃС‚РёР»РёР·Р°С†РёСЏ СЃРµСЂРѕРіРѕ Р±Р»РѕРєР° СЃ С†РµРЅРѕР№ */
  .price-btn{
 	padding:15px 25px;
 	vertical-align:middle;
@@ -806,7 +805,7 @@ border:2px solid black;
 	 color:black;
  }
  
- /* итемы шопа */
+ /* РёС‚РµРјС‹ С€РѕРїР° */
  .shop-item-wrap{
 	 margin-top:35px;
 	 margin-bottom:85px;
